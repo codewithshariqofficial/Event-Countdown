@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Countdown</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Event Countdown</h1>
+            <button id="add-event-btn" class="btn-primary">Add Event</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <div id="events-grid" class="events-grid">
+            <!-- Events will be injected here -->
+            <div id="empty-state" class="empty-state">
+                <p>No events yet. Click "Add Event" to get started!</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal for adding events -->
+    <div id="modal-overlay" class="modal-overlay hidden">
+        <div class="modal">
+            <div class="modal-header">
+                <h2>Add New Event</h2>
+                <button id="close-modal" class="btn-close">&times;</button>
+            </div>
+            <form id="event-form">
+                <div class="form-group">
+                    <label for="event-title">Event Title</label>
+                    <input type="text" id="event-title" required placeholder="e.g., Summer Vacation">
+                </div>
+                <div class="form-group">
+                    <label for="event-date">Target Date & Time</label>
+                    <input type="datetime-local" id="event-date" required>
+                </div>
+                <div class="form-group">
+                    <label for="event-color">Theme Color</label>
+                    <input type="color" id="event-color" value="#4f46e5">
+                </div>
+                <div class="form-actions">
+                    <button type="button" id="cancel-btn" class="btn-secondary">Cancel</button>
+                    <button type="submit" class="btn-primary">Create Event</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 <div align="center">
 
-# â³ Event Countdown Timer
+# Event Countdown Timer
 
 **A beautiful countdown timer that counts down to any event â€” days, hours, minutes & seconds with animated UI. Built with HTML, CSS & JavaScript.**
 
@@ -13,13 +13,13 @@
 
 ---
 
-## ðŸ“Œ Topics
+## Topics
 
-`html` `css` `javascript` `countdown-timer` `event-timer` `date-api` `real-time` `responsive-design` `front-end` `web-development` `vanilla-js` `css-animations` `timer-app` `web-project`
+`html` `css` `javascript` `countdown-timer` `event-timer` `date-api` `real-time` `responsive-design` `front-end` `vanilla-js`
 
 ---
 
-## ðŸ“– About
+## About
 
 A **stunning event countdown timer** perfect for product launches, weddings, birthdays, New Year, or any special occasion. Displays days, hours, minutes, and seconds in a visually appealing card layout.
 
@@ -27,32 +27,32 @@ Uses JavaScript **Date math** and **setInterval** for real-time countdown update
 
 ---
 
-## âœ¨ Features
+## Features
 
 | Feature | Description |
 |---------|-------------|
-| â³ Live Countdown | Ticks every second in real-time |
-| ðŸ“Š 4-Unit Display | Days, Hours, Minutes, Seconds |
-| ðŸŽ¨ Beautiful UI | Modern card-based design |
-| ðŸŽ‰ Event Message | Shows message when timer ends |
-| ðŸ“± Responsive | Works on all screen sizes |
-| ðŸ”„ Auto Calculate | Computes remaining time |
-| ðŸ’« Animations | Smooth CSS transitions |
-| ðŸŽ¯ Custom Date | Set any target date |
+| Live Countdown | Ticks every second in real-time |
+| 4-Unit Display | Days, Hours, Minutes, Seconds |
+| Beautiful UI | Modern card-based design |
+| Event Message | Shows message when timer ends |
+| Responsive | Works on all screen sizes |
+| Auto Calculate | Computes remaining time |
+| Smooth Animations | CSS transitions |
+| Custom Date | Set any target date |
 
 ---
 
-## ðŸ› ï¸ Tech Stack
+## Tech Stack
 
 ```
-HTML5 âžœ Countdown Layout & Structure
-CSS3  âžœ Card Design, Grid Layout, Animations
-JS    âžœ Date Math, setInterval, DOM Manipulation
+HTML5  -->  Countdown Layout & Structure
+CSS3   -->  Card Design, Grid Layout, Animations
+JS     -->  Date Math, setInterval, DOM Manipulation
 ```
 
 ---
 
-## âš™ï¸ How It Works
+## How It Works
 
 ```javascript
 const eventDate = new Date("2026-12-31 00:00:00").getTime();
@@ -72,7 +72,7 @@ setInterval(updateCountdown, 1000);
 
 ---
 
-## ðŸš€ Quick Start
+## Quick Start
 
 ```bash
 git clone https://github.com/codewithshariqofficial/Event-Countdown.git
@@ -87,7 +87,7 @@ const eventDate = new Date("YOUR-DATE-HERE").getTime();
 
 ---
 
-## ðŸ“‚ Project Structure
+## Project Structure
 
 ```
 Event-Countdown/
@@ -99,7 +99,7 @@ Event-Countdown/
 
 ---
 
-## ðŸ‘¨â€ðŸ’» Author
+## Author
 
 **Code With Shariq Official**
 
@@ -107,5 +107,3 @@ Event-Countdown/
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/codewithshariq1/)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/codewithshariq1)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://muhammad-shariq-shahid.vercel.app/)
-
----

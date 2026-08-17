@@ -2,7 +2,7 @@
 
 # Event Countdown Timer
 
-**A beautiful countdown timer that counts down to any event â€” days, hours, minutes & seconds with animated UI. Built with HTML, CSS & JavaScript.**
+**A beautiful countdown timer that counts down to any event â€" days, hours, minutes & seconds with animated UI. Built with HTML, CSS & JavaScript.**
 
 [![Live Demo](https://img.shields.io/badge/LIVE-DEMO-brightgreen?style=for-the-badge&logo=vercel&logoColor=white)](https://event-countdown.vercel.app)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -91,10 +91,10 @@ const eventDate = new Date("YOUR-DATE-HERE").getTime();
 
 ```
 Event-Countdown/
-â”œâ”€â”€ index.html      # Main page
-â”œâ”€â”€ script.js       # Countdown logic
-â”œâ”€â”€ style.css       # Styling
-â””â”€â”€ README.md
+â"œâ"€â"€ index.html      # Main page
+â"œâ"€â"€ script.js       # Countdown logic
+â"œâ"€â"€ style.css       # Styling
+â""â"€â"€ README.md
 ```
 
 ---
